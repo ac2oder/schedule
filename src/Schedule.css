@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:auto;
+}
+
+td {
+    border: 1px solid black;
+    border-left: none;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.header {
+    width: 800px;
+    height: 600px;
+    background:#ebd3a0;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 26px 40px 20px 40px;
+    font-size: 10px;
+}
+
+.title1{
+    padding: 75px 0 0 0;
+    letter-spacing: 5.3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title2 {
+    margin: 13px 0px 0px 0px;
+    letter-spacing: 2.4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title3 {
+    margin: 43px 0px 0px 0px;
+    letter-spacing: 1.6px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.way {
+    font-size: 12px;
+    letter-spacing: 1.9px;
+    font-weight: bold;
+}
+
+.timeBig {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.0px;
+}
+
+.time {
+    border-top: 1px solid black;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.nameStation {
+    margin-left: 5px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 8.5px;
+}
+
+p6 {
+    font-weight: bold;
+    font-size: 8.5px;
+}
+
+.unBorderTopBottom {
+    border-bottom: none;
+    border-top: none;
+}
+
+.unBorderTop {
+    border-top: none;
+}
+
+.unBorderBottom {
+    border-bottom: none;
+}
+
+.unBorderRight {
+    border-right: none;
+}
+
+tr:last-child td {
+    border-bottom: 1px solid black;
+}
